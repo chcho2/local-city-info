@@ -20,12 +20,14 @@ oAuthController.verifyToken = (req, res, next) => {
             audience: process.env.CLIENT_ID,
           });
           const payload = ticket.getPayload();
+          console.log('what is payload', payload)
           const userId = payload['sub'];
           const { email, given_name, family_name } = payload;
           res.locals.userName = email;
           res.locals.firstName = given_name;
           res.locals.lastName = family_name;
           res.locals.oAuth = true;
+          res.locals.userId = userId;
           return next();
       
       }

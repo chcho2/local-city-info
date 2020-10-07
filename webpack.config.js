@@ -55,23 +55,19 @@ module.exports = {
     },
     proxy: {
       '/businesses/**': {
-        target: 'http://localhost:3000',
+        target: 'http://localhost:5000',
         secure: false,
       },
       '/location/**': {
-        target: 'http://localhost:3000',
+        target: 'http://localhost:5000',
         secure: false,
       },
       '/news/**': {
-        target: 'http://localhost:3000',
+        target: 'http://localhost:5000',
         secure: false,
       },
       '/weather/**': {
-        target: 'http://localhost:3000',
-        secure: false,
-      },
-      '/signin/**': {
-        target: 'http://localhost:3000',
+        target: 'http://localhost:5000',
         secure: false,
       },
     },

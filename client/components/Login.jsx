@@ -13,20 +13,20 @@ function Login(props) {
   }
 
   const login = (user) => {
- 
+
     console.log('userProfile', user.getBasicProfile());
     const profile = user.getBasicProfile()
     // const firstName = profile.getGivenName();
-		// console.log('firstName: ', firstName)
-		// // GET LAST NAME
-		// const lastName = profile.getFamilyName();
-		// console.log('lastName: ', lastName)
-		// // GET IMAGE URL
-		// const imageUrl = profile.getImageUrl();
-		// console.log('imageURL: ', imageUrl)
-		// // GET EMAIL
-		// const email = profile.getEmail();
-		// console.log('email: ', email)
+    // console.log('firstName: ', firstName)
+    // // GET LAST NAME
+    // const lastName = profile.getFamilyName();
+    // console.log('lastName: ', lastName)
+    // // GET IMAGE URL
+    // const imageUrl = profile.getImageUrl();
+    // console.log('imageURL: ', imageUrl)
+    // // GET EMAIL
+    // const email = profile.getEmail();
+    // console.log('email: ', email)
     const token = user.getAuthResponse().id_token;
     console.log('token', token)
     fetch('http://localhost:3000/signin', {
@@ -38,18 +38,18 @@ function Login(props) {
         'Content-Type': 'application/json',
       }
     })
-    .then((data) => data.json())
-    .then((response) => {
-      if(response.authorized) {
-        alert('Log in Successul!')
-        redirecting();
-      } else {
-        alert('Please try again!')
-      }
-    })
-    .catch((error) => {
-      console.error('There is an error in fetching OAuth data', error)
-    })
+      .then((data) => data.json())
+      .then((response) => {
+        if (response.authorized) {
+          alert('Log in Successul!')
+          redirecting();
+        } else {
+          alert('Please try again!')
+        }
+      })
+      .catch((error) => {
+        console.error('There is an error in fetching OAuth data', error)
+      })
   }
 
 
@@ -63,7 +63,7 @@ function Login(props) {
       'onsuccess': login
     })
   })
-    
+
   return (
     <div className="container signup-login-container">
       <h1>Welcome!</h1>
@@ -111,7 +111,7 @@ function Login(props) {
             <Button variant="primary" type="submit">
               Log In
             </Button>
-            
+
           </Form>
         </Tab>
       </Tabs>
