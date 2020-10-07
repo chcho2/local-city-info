@@ -1,0 +1,220 @@
+[
+  {
+      "id": "KVmX9aAWySQGgsW3KGJrgA",
+      "alias": "metrorock-brooklyn-brooklyn",
+      "name": "MetroRock - Brooklyn",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/YFjTDhTZYnsP1ITOimsnGg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/metrorock-brooklyn-brooklyn?adjust_creative=ollhpSbN2ERuoErDHKIs3Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ollhpSbN2ERuoErDHKIs3Q",
+      "review_count": 41,
+      "categories": [
+          {
+              "alias": "rock_climbing",
+              "title": "Rock Climbing"
+          },
+          {
+              "alias": "climbing",
+              "title": "Climbing"
+          },
+          {
+              "alias": "outdoorgear",
+              "title": "Outdoor Gear"
+          }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+          "latitude": 40.708067,
+          "longitude": -73.920515
+      },
+      "transactions": [],
+      "location": {
+          "address1": "321 Starr St",
+          "address2": null,
+          "address3": "",
+          "city": "Brooklyn",
+          "zip_code": "11237",
+          "country": "US",
+          "state": "NY",
+          "display_address": [
+              "321 Starr St",
+              "Brooklyn, NY 11237"
+          ]
+      },
+      "phone": "+19295007625",
+      "display_phone": "(929) 500-7625",
+      "distance": 7223.0047082426045
+  },
+  {
+      "id": "GFaJ74Oy3xineK8OaG-HlQ",
+      "alias": "central-rock-gym-manhattan-new-york-2",
+      "name": "Central Rock Gym Manhattan",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/9ZqxdyroBZEzP8dAis2S6g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/central-rock-gym-manhattan-new-york-2?adjust_creative=ollhpSbN2ERuoErDHKIs3Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ollhpSbN2ERuoErDHKIs3Q",
+      "review_count": 28,
+      "categories": [
+          {
+              "alias": "gyms",
+              "title": "Gyms"
+          },
+          {
+              "alias": "climbing",
+              "title": "Climbing"
+          },
+          {
+              "alias": "rock_climbing",
+              "title": "Rock Climbing"
+          }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+          "latitude": 40.772498924215,
+          "longitude": -73.9903171706391
+      },
+      "transactions": [],
+      "location": {
+          "address1": "21 West End Ave",
+          "address2": null,
+          "address3": "",
+          "city": "New York",
+          "zip_code": "10069",
+          "country": "US",
+          "state": "NY",
+          "display_address": [
+              "21 West End Ave",
+              "New York, NY 10069"
+          ]
+      },
+      "phone": "+12122657625",
+      "display_phone": "(212) 265-7625",
+      "distance": 6770.700006042218
+  },
+  {
+      "id": "RPqX6GUj_Cn8gEnwVLmQOA",
+      "alias": "everyday-athlete-brooklyn-3",
+      "name": "Everyday Athlete",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8AWAb5r-xNjkqI0BvFwfWA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/everyday-athlete-brooklyn-3?adjust_creative=ollhpSbN2ERuoErDHKIs3Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ollhpSbN2ERuoErDHKIs3Q",
+      "review_count": 19,
+      "categories": [
+          {
+              "alias": "climbing",
+              "title": "Climbing"
+          },
+          {
+              "alias": "kids_activities",
+              "title": "Kids Activities"
+          },
+          {
+              "alias": "summer_camps",
+              "title": "Summer Camps"
+          }
+      ],
+      "rating": 3.5,
+      "coordinates": {
+          "latitude": 40.692605,
+          "longitude": -73.993458
+      },
+      "transactions": [],
+      "location": {
+          "address1": "130 Clinton St",
+          "address2": null,
+          "address3": "",
+          "city": "Brooklyn",
+          "zip_code": "11201",
+          "country": "US",
+          "state": "NY",
+          "display_address": [
+              "130 Clinton St",
+              "Brooklyn, NY 11201"
+          ]
+      },
+      "phone": "+17188526300",
+      "display_phone": "(718) 852-6300",
+      "distance": 2482.2342228331854
+  },
+  {
+      "id": "GHWHOK8hmcoQZiGIinDZmw",
+      "alias": "mphc-climbing-gym-new-york",
+      "name": "MPHC Climbing Gym",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/zFu4jEsN1YgwDlPBfga2bA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/mphc-climbing-gym-new-york?adjust_creative=ollhpSbN2ERuoErDHKIs3Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ollhpSbN2ERuoErDHKIs3Q",
+      "review_count": 13,
+      "categories": [
+          {
+              "alias": "climbing",
+              "title": "Climbing"
+          }
+      ],
+      "rating": 5,
+      "coordinates": {
+          "latitude": 40.7599729937224,
+          "longitude": -73.9946003220902
+      },
+      "transactions": [],
+      "location": {
+          "address1": "482 W 43rd St",
+          "address2": "",
+          "address3": "",
+          "city": "New York",
+          "zip_code": "10036",
+          "country": "US",
+          "state": "NY",
+          "display_address": [
+              "482 W 43rd St",
+              "New York, NY 10036"
+          ]
+      },
+      "phone": "+12125637001",
+      "display_phone": "(212) 563-7001",
+      "distance": 5334.9275742423415
+  },
+  {
+      "id": "qX-uZDtsvM8XvqChWe9-2A",
+      "alias": "everyday-athlete-brooklyn-2",
+      "name": "Everyday Athlete",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/5A77AAXkDf0La1gKyQ_Hew/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/everyday-athlete-brooklyn-2?adjust_creative=ollhpSbN2ERuoErDHKIs3Q&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=ollhpSbN2ERuoErDHKIs3Q",
+      "review_count": 10,
+      "categories": [
+          {
+              "alias": "healthtrainers",
+              "title": "Trainers"
+          },
+          {
+              "alias": "climbing",
+              "title": "Climbing"
+          },
+          {
+              "alias": "daycamps",
+              "title": "Day Camps"
+          }
+      ],
+      "rating": 4,
+      "coordinates": {
+          "latitude": 40.69327,
+          "longitude": -73.99969
+      },
+      "transactions": [],
+      "location": {
+          "address1": "360 Furman St",
+          "address2": null,
+          "address3": "One Brooklyn Bridge",
+          "city": "Brooklyn",
+          "zip_code": "11201",
+          "country": "US",
+          "state": "NY",
+          "display_address": [
+              "360 Furman St",
+              "One Brooklyn Bridge",
+              "Brooklyn, NY 11201"
+          ]
+      },
+      "phone": "+17188526300",
+      "display_phone": "(718) 852-6300",
+      "distance": 2209.7963363538215
+  }
+]

@@ -1,0 +1,473 @@
+{
+    "news": {
+        "business": [
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": "Hanna Ziady, CNN Business",
+                "title": "Ikea's online sales surged as people turned homes into offices and schools - CNN",
+                "description": "Ikea's online sales got a big boost during the pandemic as millions of people turned their homes into makeshift schools and offices.",
+                "url": "https://www.cnn.com/2020/10/06/business/ikea-coronavirus-sales/index.html",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201006115854-ikea-store-russia-0702-super-tease.jpg",
+                "publishedAt": "2020-10-06T17:04:00Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": "usa-today",
+                    "name": "USA Today"
+                },
+                "author": "Kelly Tyko",
+                "title": "Petco ends sale of electronic shock collars, calls on competitors to also 'Stop the Shock' with online petition - USA TODAY",
+                "description": "Petco is no longer selling electronic \"shock\" collars and is calling on the pet industry and consumers to join its \"Stop the Shock\" movement.",
+                "url": "https://www.usatoday.com/story/money/2020/10/06/dog-collar-petco-stops-selling-shock-collars-free-training/3636715001/",
+                "urlToImage": "https://www.gannett-cdn.com/presto/2020/10/06/USAT/755efbb1-7ede-46cd-b43a-4376b9e46350-petco1.jpg?crop=2509,1411,x1,y101&width=1600&height=800&fit=bounds",
+                "publishedAt": "2020-10-06T16:47:38Z",
+                "content": "The miniature schnauzer behind Pluto Living has an important message for the humans of the world.\r\nUSA TODAY\r\nPetco is no longer selling electronic \"shock\" collars and is calling on the pet industry … [+3276 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Motley Fool"
+                },
+                "author": "Rich Smith",
+                "title": "Why Carnival Corporation, Royal Caribbean, and Norwegian Cruise Line Stocks All Popped This Morning - Motley Fool",
+                "description": "Hints of optimism are in the air, and cruising could resume this year.",
+                "url": "https://www.fool.com/investing/2020/10/06/why-carnival-corporation-royal-caribbean-and-norwe/",
+                "urlToImage": "https://g.foolcdn.com/editorial/images/594213/3-cruise-liner-ships-lined-up-abreast-in-port.jpg",
+                "publishedAt": "2020-10-06T16:39:00Z",
+                "content": "What happened\r\nOn Monday, Norwegian Cruise Line Holdings(NASDAQ:NCLH) followed in the footsteps of rival Carnival Corporation(NYSE:CCL), announcing that despite the U.S. Centers for Disease Control a… [+3130 chars]"
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": "Matt Egan, CNN Business",
+                "title": "Goldman Sachs: A Democratic sweep would mean faster economic recovery - CNN",
+                "description": "President Donald Trump is once again warning voters that Democrats would \"shut our economy and jobs down\" if they win in November.",
+                "url": "https://www.cnn.com/2020/10/06/business/economy-election-blue-wave-goldman-sachs/index.html",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201006091408-us-capitol-1001-restricted-super-tease.jpg",
+                "publishedAt": "2020-10-06T16:17:00Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Investor's Business Daily"
+                },
+                "author": "Investor's Business Daily",
+                "title": "Dow Jones Jumps 125 Points, As Trump Continues Coronavirus Recovery; Apple, Tesla Slide - Investor's Business Daily",
+                "description": "The Dow Jones Industrial Average rose over 125 points, as President Trump continues his coronavirus recovery. But Apple and Tesla stumbled.",
+                "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-trump-coronavirus-recovery-apple-microsoft-tesla-costco-nears-buy-point/",
+                "urlToImage": "https://www.investors.com/wp-content/uploads/2018/06/Stock-costco-03-shutt.jpg",
+                "publishedAt": "2020-10-06T15:50:00Z",
+                "content": "The Dow Jones Industrial Average rallied more than 125 points before cutting gains, as President Trump continues his coronavirus recovery. Dow Jones leaders Apple and Microsoft slid, while Tesla reve… [+6237 chars]"
+            }
+        ],
+        "entertainment": [
+            {
+                "source": {
+                    "id": "google-news",
+                    "name": "Google News"
+                },
+                "author": null,
+                "title": "Rihanna APOLOGIZES For Offending Muslims In Savage X Fenty Show! - Clevver News",
+                "description": null,
+                "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9U1dCNXpZaXdMN03SAQA?oc=5",
+                "urlToImage": null,
+                "publishedAt": "2020-10-06T17:15:04Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "New York Times"
+                },
+                "author": "Julia Jacobs, Dave Itzkoff",
+                "title": "‘S.N.L.’ Had a Live Audience. It Went Home With Paychecks. - The New York Times",
+                "description": "Reopening guidelines implemented by the state of New York prohibit the public from attending live television shows — unless the show pays its crowd like cast members.",
+                "url": "https://www.nytimes.com/2020/10/06/arts/television/snl-live-audience-paycheck.html",
+                "urlToImage": "https://static01.nyt.com/images/2020/10/06/arts/06SNL/06SNL-facebookJumbo.jpg",
+                "publishedAt": "2020-10-06T16:44:00Z",
+                "content": "Based on the guidelines around pandemic-era media production that were released by the state, television shows are not allowed to host live audiences unless they consist of paid employees, cast and c… [+1325 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Variety"
+                },
+                "author": "Brent Lang",
+                "title": "Comedy Powerhouse The Second City Is for Sale (EXCLUSIVE) - Variety",
+                "description": "The Second City, the comedy institution that launched the careers of Dan Aykroyd, John Belushi, Bill Murray and Tina Fey, is being put up for sale. It marks only the second time in the brand’s 60-year history that it has been on the block. Investment bank Hou…",
+                "url": "https://variety.com/2020/film/news/second-city-for-sale-john-belushi-tina-fey-bill-murray-1234794180/",
+                "urlToImage": "https://pmcvariety.files.wordpress.com/2020/10/second-city.jpg?w=1024",
+                "publishedAt": "2020-10-06T16:40:00Z",
+                "content": "The Second City, the comedy institution that launched the careers of Dan Aykroyd, John Belushi, Bill Murray and Tina Fey, is being put up for sale. It marks only the second time in the brand’s 60-yea… [+2861 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Vulture"
+                },
+                "author": "Mike Sampson",
+                "title": "The Fate of American Movie Theaters Looks Terribly Bleak - Vulture",
+                "description": "Theater owners across the country explain how they’re going to survive 2020: “It’s a darker time now than when theaters were initially closed.”",
+                "url": "http://www.vulture.com/2020/10/the-fate-of-american-movie-theaters-looks-terribly-bleak.html",
+                "urlToImage": "https://pyxis.nymag.com/v1/imgs/957/d95/a10266ed3eb01a869a5d835d43aacbf62a-movie-theater.1x.rsocial.w1200.jpg",
+                "publishedAt": "2020-10-06T16:32:30Z",
+                "content": "On August 28, after five long months of dramatically locked doors and darkened screens, the Logan Theatre a small, independently run movie theater in Chicago readied itself to reopen. With major titl… [+15797 chars]"
+            },
+            {
+                "source": {
+                    "id": "google-news",
+                    "name": "Google News"
+                },
+                "author": null,
+                "title": "Shawn Mendes ADDRESSES Camila Cabello Breakup Rumors! - Clevver News",
+                "description": null,
+                "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9WTcwdTFuTXJUMmvSAQA?oc=5",
+                "urlToImage": null,
+                "publishedAt": "2020-10-06T16:30:01Z",
+                "content": null
+            }
+        ],
+        "general": [
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": "Barbara Starr and Zachary Cohen, CNN",
+                "title": "Senior Pentagon leadership quarantining after exposure to coronavirus - CNN",
+                "description": "The top US general, Joint Chiefs of Staff Chairman Mark Milley, and several members of the Pentagon's senior leadership are quarantining after a top Coast Guard official tested positive for coronavirus, several US defense officials tell CNN.",
+                "url": "https://www.cnn.com/2020/10/06/politics/pentagon-leadership-self-isolating-coronavirus/index.html",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/130927142724-pentagon-aerial-story-top.jpg",
+                "publishedAt": "2020-10-06T17:41:00Z",
+                "content": "(CNN)The top US general, Joint Chiefs of Staff Chairman Mark Milley, and several members of the Pentagon's senior leadership are quarantining after a top Coast Guard official tested positive for coro… [+6030 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "NPR"
+                },
+                "author": "",
+                "title": "Florida Voter Registration Site Crashes; Deadline Extended - NPR",
+                "description": "After heavy traffic caused the state's voter registration portal to crash, Florida Gov. Ron DeSantis has extended the registration deadline by a day.",
+                "url": "https://www.npr.org/2020/10/06/920774701/florida-governor-extends-deadline-after-voter-registration-site-crashes",
+                "urlToImage": "https://media.npr.org/assets/img/2020/10/06/gettyimages-1227861900_wide-a13a4a0c2c5b127b0013c6c1ee8ee57cc0337cd2.jpg?s=1400",
+                "publishedAt": "2020-10-06T17:39:59Z",
+                "content": "Florida Gov. Ron DeSantis, seen here in July, has extended the voter registration deadline by a day after the state's online portal crashed Monday.\r\nSaul Loeb/AFP via Getty Images\r\nFlorida Gov. Ron D… [+2126 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "CNET"
+                },
+                "author": "Ian Sherr",
+                "title": "iPhone 12 launch date: Apple's virtual event for its expected 5G smartphone is Oct. 13 - CNET",
+                "description": "The iPhone maker's biggest event of the year shifts online as the coronavirus rages across the globe.",
+                "url": "https://www.cnet.com/news/iphone-12-launch-date-apples-virtual-event-for-expected-5g-smartphone-is-oct-13/",
+                "urlToImage": "https://cnet3.cbsistatic.com/img/lLIhSi5-ZYqlxqyWb-zMexIe0K4=/1200x630/2020/10/06/433f2f08-8f26-4a3a-b857-79ef70d70eb4/apple-invite-oct-2020.png",
+                "publishedAt": "2020-10-06T17:33:00Z",
+                "content": "Look at Apple making a pun about 5G\r\nApple\r\nThis story is part of Apple Event, our full coverage of the latest news from Apple headquarters.\r\nApple has set the date for its latest iPhone's debut. The… [+5833 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "New York Times"
+                },
+                "author": "Katherine J. Wu",
+                "title": "The White House Bet on Abbott's Rapid Tests. It Didn't Work Out. - The New York Times",
+                "description": "Federal officials relied too heavily on the tests, then took the results for granted, experts say.",
+                "url": "https://www.nytimes.com/2020/10/06/health/covid-white-house-testing.html",
+                "urlToImage": "https://static01.nyt.com/images/2020/11/05/science/05VIRUS-ABBOTT01/05VIRUS-ABBOTT01-facebookJumbo.jpg",
+                "publishedAt": "2020-10-06T17:23:00Z",
+                "content": "People without Covid-19 symptoms have been among those taking the test on White House grounds, where individuals who received negative results were granted swift access to the president and his advis… [+2266 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "CNBC"
+                },
+                "author": "Kevin Breuninger",
+                "title": "Trump reports no symptoms after first night back at the White House, doctor says in memo - CNBC",
+                "description": "The optimistic update from the White House doctor came less than a day after Trump was discharged from Walter Reed National Military Medical Center.",
+                "url": "https://www.cnbc.com/2020/10/06/trump-reports-no-symptoms-after-first-night-back-at-the-white-house-doctor-says-in-memo.html",
+                "urlToImage": "https://image.cnbcfm.com/api/v1/image/106731649-1601985310088-gettyimages-1228916298-AFP_8RH24Z.jpg?v=1601985324",
+                "publishedAt": "2020-10-06T16:43:00Z",
+                "content": "President Donald Trump reported no symptoms of the coronavirus Tuesday following his first night out of the hospital, the White House physician said.\r\n\"This morning the President's team of physicians… [+3074 chars]"
+            }
+        ],
+        "health": [
+            {
+                "source": {
+                    "id": "axios",
+                    "name": "Axios"
+                },
+                "author": "Caitlin Owens",
+                "title": "Scoop: Surgeon General faces coronavirus citation for being in a park - Axios",
+                "description": "Honolulu police have issued tens of thousands of coronavirus citations in recent weeks.",
+                "url": "https://www.axios.com/surgeon-general-coronavirus-citation-hawaii-1568d6f0-be9a-416a-a461-60ecea9ea47b.html",
+                "urlToImage": "https://images.axios.com/yngD0wnlDb2vAlMM8hbp11B2g7Y=/fit-in/1366x1366/2020/10/06/1601998952002.jpg",
+                "publishedAt": "2020-10-06T18:12:58Z",
+                "content": "Surgeon General Jerome Adams received a citation for violating coronavirus policies while in Hawaii, where he was helping the state respond to its outbreak.\r\nThe big picture: Honolulu police have iss… [+1370 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "New York Times"
+                },
+                "author": "Katherine J. Wu",
+                "title": "The White House Bet on Abbott's Rapid Tests. It Didn't Work Out. - The New York Times",
+                "description": "Federal officials relied too heavily on the tests, then took the results for granted, experts say.",
+                "url": "https://www.nytimes.com/2020/10/06/health/covid-white-house-testing.html",
+                "urlToImage": "https://static01.nyt.com/images/2020/11/05/science/05VIRUS-ABBOTT01/05VIRUS-ABBOTT01-facebookJumbo.jpg",
+                "publishedAt": "2020-10-06T17:23:00Z",
+                "content": "People without Covid-19 symptoms have been among those taking the test on White House grounds, where individuals who received negative results were granted swift access to the president and his advis… [+2266 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "MarketWatch"
+                },
+                "author": "Quentin Fottrell",
+                "title": "‘Don’t ever, ever underestimate the potential of the pandemic’: 5 reasons scientists say you should be afraid of COVID-19 - MarketWatch",
+                "description": "President Trump left Walter Reed Monday and returned to the White House, telling the nation, ‘Don’t be afraid of it.’ Anthony Fauci later cautioned the president’s condition ‘could have a reversal’",
+                "url": "https://www.marketwatch.com/story/dont-ever-ever-underestimate-the-potential-of-the-pandemic-5-reasons-scientists-say-you-should-be-afraid-of-covid-19-2020-10-06",
+                "urlToImage": "https://s.marketwatch.com/public/resources/images/MW-IQ154_TrumpB_ZG_20201006055002.jpg",
+                "publishedAt": "2020-10-06T15:27:00Z",
+                "content": "Panicking about COVID-19 wont help you get through the pandemic, health professionals say. And neither will treating the novel coronavirus, a highly unpredictable disease for which there is no 100% s… [+8927 chars]"
+            },
+            {
+                "source": {
+                    "id": "fox-news",
+                    "name": "Fox News"
+                },
+                "author": "Alexandria Hein",
+                "title": "Over 80% of hospitalized coronavirus patients experience neurological symptoms - Fox News",
+                "description": "Over 80% of hospitalized patients involved in the study experienced some type of neurological symptom.",
+                "url": "https://www.foxnews.com/health/hospitalized-coronavirus-patients-neurological-symptoms-study",
+                "urlToImage": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/570f7cf3-f8b1-4e2e-bc07-94ded6b22610/cf5bb225-d9ea-4d40-8bd7-8abc0c186de0/1280x720/match/image.jpg",
+                "publishedAt": "2020-10-06T14:27:29Z",
+                "content": "While respiratory issues are a well-documented symptom of coronavirus, researchers have found that over 80% of hospitalized COVID-19 patients experience some type of neurological manifestation as wel… [+2997 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "KSL.com"
+                },
+                "author": "https://www.facebook.com/kslcom/",
+                "title": "4 things you and your family should know about colon cancer - KSL.com",
+                "description": "More than 150,000 Americans develop colorectal cancer each year, making it the second most common cancer-related cause of death in the United States. \nHere are four things you should know about colon cancer.",
+                "url": "https://www.ksl.com/article/50023399/4-things-you-and-your-family-should-know-about-colon-cancer",
+                "urlToImage": "https://img.ksl.com/slc/2795/279508/27950825.jpeg?filter=ksl/responsive_story_lg",
+                "publishedAt": "2020-10-06T14:18:24Z",
+                "content": "In the heartbreaking passing of actor Chadwick Boseman from colon cancer, a lot of needed attention has been spotlighted on this disease.\r\nMore than 150,000 Americans develop colorectal cancer each y… [+3078 chars]"
+            }
+        ],
+        "science": [
+            {
+                "source": {
+                    "id": "ign",
+                    "name": "IGN"
+                },
+                "author": "Wesley LeBlanc",
+                "title": "Supernova Explosion Discovered From 2.5 Million Years Ago - IGN - IGN",
+                "description": "Scientists have discovered proof that they believe proves a massive supernova explosion occurred in Earth's vicinity 2.5 million years ago.",
+                "url": "https://www.ign.com/articles/supernova-explosion-discovered-from-25-million-years-ago",
+                "urlToImage": "https://assets1.ignimgs.com/2020/10/06/pia17563-orig-1-1601996757745.jpg?width=1280",
+                "publishedAt": "2020-10-06T16:32:44Z",
+                "content": "Scientists have discovered that a massive supernova explosion likely occurred in Earth's vicinity 2.5 million years ago. Researchers have theories across the board on whether or not it links to the p… [+4338 chars]"
+            },
+            {
+                "source": {
+                    "id": "engadget",
+                    "name": "Engadget"
+                },
+                "author": "",
+                "title": "SpaceX wins contract to make US missile tracking satellites - Engadget",
+                "description": "SpaceX has won a contract to build missile warning satellites for the Defense Department, and they might be based on Starlink.",
+                "url": "https://www.engadget.com/spacex-missile-tracking-satellite-contract-150852927.html",
+                "urlToImage": "https://o.aolcdn.com/images/dims?resize=1200%2C630&crop=1200%2C630%2C0%2C0&quality=95&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-10%2F954fdd40-07e0-11eb-b7fd-9999227c8136&client=amp-blogside-v2&signature=34df47a1daa8b3cc14fce50a147104abd0563174",
+                "publishedAt": "2020-10-06T15:14:21Z",
+                "content": "L3 Harris won a similar contract for about $193.6 million. The SDA hopes to launch a combined eight satellites from both companies by the end of 2022, and plans\r\nThis is SpaceX’s first Defense Depart… [+380 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "NASA"
+                },
+                "author": null,
+                "title": "NASA's James Webb Space Telescope Completes Environmental Testing - NASA",
+                "description": "With the completion of its latest series of milestone tests, NASA’s James Webb Space Telescope has now survived all of the harsh conditions associated with a rocket launch to space.",
+                "url": "https://www.nasa.gov/feature/goddard/2020/nasa-s-james-webb-space-telescope-completes-environmental-testing/",
+                "urlToImage": "http://www.nasa.gov/sites/default/files/thumbnails/image/fullobervatoryliftsmgunnsept2020.jpg",
+                "publishedAt": "2020-10-06T14:51:04Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": "cnn",
+                    "name": "CNN"
+                },
+                "author": "Ashley Strickland, CNN",
+                "title": "Draconid meteor shower 2020: How and when to watch - CNN",
+                "description": "Keep an eye on the night sky this week to see \"the dragon\" in action. The Draconid meteor shower is expected to peak on the evening of October 7.",
+                "url": "https://www.cnn.com/2020/10/06/world/draconid-meteor-shower-october-scn-trnd/index.html",
+                "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/201005175856-draconid-meteor-shower-file-restricted-super-tease.jpg",
+                "publishedAt": "2020-10-06T14:47:00Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "TODAY"
+                },
+                "author": "A. Pawlowski",
+                "title": "What loneliness does to the human body: Astronaut tips for dealing with social isolation - TODAY",
+                "description": "How do I stop being socially isolated? Astronaut Scott Kelly, who spent a year on the International Space station, shares tips on dealing with social isolation.",
+                "url": "https://www.today.com/health/what-loneliness-does-human-body-astronaut-tips-dealing-social-isolation-t193416",
+                "urlToImage": "https://media1.s-nbcnews.com/j/newscms/2020_41/1615924/scott-kelly-kb-main-201005_d606587db0e1789ee84dd0e52e39f387.social_share_1200x630_center.jpg",
+                "publishedAt": "2020-10-06T14:05:00Z",
+                "content": "For almost a year, Scott Kelly only saw his family on a video screen, couldnt go outside without special gear and guarded against the health dangers lurking outside his homes walls.\r\nSound familiar?\r… [+5911 chars]"
+            }
+        ],
+        "sports": [
+            {
+                "source": {
+                    "id": null,
+                    "name": "ESPN"
+                },
+                "author": "Rodrigo Faez and Alex Kirkland",
+                "title": "Atletico Madrid angry with Thomas Partey over Arsenal move - sources - ESPN",
+                "description": "Atletico Madrid are angry with Thomas Partey for the way his last-minute deadline day move to Arsenal was conducted, sources have told ESPN.",
+                "url": "https://www.espn.com/soccer/soccer-transfers/story/4201835/atletico-madrid-angry-with-thomas-partey-over-late-arsenal-move-sources",
+                "urlToImage": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2019%2F1001%2Fr606292_1296x729_16%2D9.jpg",
+                "publishedAt": "2020-10-06T17:56:03Z",
+                "content": "Atletico Madrid are angry with Thomas Partey for the way his last-minute deadline day move to Arsenal was conducted, sources have told ESPN.\r\nPartey, 27, joined the Premier League club on Monday nigh… [+3080 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "NBCSports.com"
+                },
+                "author": "Josh Alper",
+                "title": "49ers release Mohamed Sanu - NBC Sports - NFL",
+                "description": "The 49ers got Deebo Samuel back at wide receiver for last Sunday night’s game against the Eagles and his return helped bring an end to Mohamed Sanu‘s brief time with the team. Ian Rapoport of NFL Media reports that the 49ers are releasing Sanu on Tuesday. He …",
+                "url": "https://profootballtalk.nbcsports.com/2020/10/06/49ers-release-mohamed-sanu/",
+                "urlToImage": "https://profootballtalk.nbcsports.com/wp-content/uploads/sites/25/2020/10/GettyImages-1277662969-e1602006915937.jpg",
+                "publishedAt": "2020-10-06T17:55:00Z",
+                "content": "doctorrustbelt says:October 6, 2020 at 2:07 pmWait!!!\r\nAnother of Andy Daltons great wide receivers is flushed slowly out of the league!!!\r\nI thought he was great and Dalton was surrounded with great… [+352 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Detroit Free Press"
+                },
+                "author": "Helene St. James",
+                "title": "Detroit Red Wings waive Justin Abdelkader for purpose of buyout - Detroit Free Press",
+                "description": "Detroit Red Wings' Justin Abdelkader has underachieved the last few years and had no goals and just six assists in 2019-20.",
+                "url": "https://www.freep.com/story/sports/nhl/red-wings/2020/10/06/detroit-red-wings-waive-justin-abdelkader-purpose-buyout/5896732002/",
+                "urlToImage": "https://www.gannett-cdn.com/presto/2020/02/24/PDTF/6d0b9aa4-be1a-4f85-842f-7daa1c6cf89e-AP20055048167425.jpg?crop=2999,1687,x0,y0&width=1600&height=800&fit=bounds",
+                "publishedAt": "2020-10-06T16:41:15Z",
+                "content": "Detroit Red Wings GM Steve Yzerman in a Zoom call on Oct. 1, 2020.\r\nDetroit Free Press\r\nGeneral manager Steve Yzerman made a bold move Tuesday, opting to swallow a lengthy cost to rid the Detroit Red… [+2079 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Sports Illustrated"
+                },
+                "author": "Jimmy Traina",
+                "title": "NBA Finals Ratings Hit Rock Bottom: TRAINA THOUGHTS - Sports Illustrated",
+                "description": "How worried should the NBA be about Lakers-Heat drawing the fewest viewers ever for the NBA Finals?",
+                "url": "https://www.si.com/extra-mustard/2020/10/06/nba-finals-ratings-heat-lakers-hit-all-time-low",
+                "urlToImage": "https://www.si.com/.image/t_share/MTc1OTA4MzE3ODc1NDE0OTA1/jimmy-butler-lebron-james.jpg",
+                "publishedAt": "2020-10-06T16:19:00Z",
+                "content": "1. While the NFL is only suffering from a very slight ratings dip, the NBA has seen a severe viewer tune out. The question is, just how alarmed should the league be by this development?\r\nHere are the… [+2872 chars]"
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Field Gulls"
+                },
+                "author": "Alistair Corp",
+                "title": "Report: Mychal Kendricks visiting the Seattle Seahawks on Tuesday - Field Gulls",
+                "description": "On Tuesday, Damon Harrison’s long-awaited visit with the Seattle Seahawks will occur. Harrison won’t be alone, however. According to ESPN’s Jeremy Fowler, linebacker Mychal Kendricks is set to...",
+                "url": "https://www.fieldgulls.com/2020/10/6/21504365/report-mychal-kendricks-visiting-seattle-seahawks-week-5-free-agent-roster-news",
+                "urlToImage": "https://cdn.vox-cdn.com/thumbor/7duzPgowxpUPBuBfm_3PnOxcwg4=/0x0:3601x1885/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/21940676/usa_today_13511594.jpg",
+                "publishedAt": "2020-10-06T16:17:28Z",
+                "content": "On Tuesday, Damon Harrisons long-awaited visit with the Seattle Seahawks will occur. Harrison wont be alone, however.\r\nAccording to ESPNs Jeremy Fowler, linebacker Mychal Kendricks is set to visit th… [+1435 chars]"
+            }
+        ],
+        "technology": [
+            {
+                "source": {
+                    "id": "google-news",
+                    "name": "Google News"
+                },
+                "author": null,
+                "title": "Mario Kart Live: Home Circuit - Coming 10/16 - Nintendo Switch - Nintendo",
+                "description": null,
+                "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UVptX2hBMURsaGfSAQA?oc=5",
+                "urlToImage": null,
+                "publishedAt": "2020-10-06T18:01:00Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "CNET"
+                },
+                "author": "Ian Sherr",
+                "title": "iPhone 12 launch date: Apple's virtual event for its expected 5G smartphone is Oct. 13 - CNET",
+                "description": "The iPhone maker's biggest event of the year shifts online as the coronavirus rages across the globe.",
+                "url": "https://www.cnet.com/news/iphone-12-launch-date-apples-virtual-event-for-expected-5g-smartphone-is-oct-13/",
+                "urlToImage": "https://cnet3.cbsistatic.com/img/lLIhSi5-ZYqlxqyWb-zMexIe0K4=/1200x630/2020/10/06/433f2f08-8f26-4a3a-b857-79ef70d70eb4/apple-invite-oct-2020.png",
+                "publishedAt": "2020-10-06T17:33:00Z",
+                "content": "Look at Apple making a pun about 5G\r\nApple\r\nThis story is part of Apple Event, our full coverage of the latest news from Apple headquarters.\r\nApple has set the date for its latest iPhone's debut. The… [+5833 chars]"
+            },
+            {
+                "source": {
+                    "id": "engadget",
+                    "name": "Engadget"
+                },
+                "author": "",
+                "title": "'Population One' is the best VR battle royale yet - Engadget",
+                "description": "Just when I was ready to give up on finding the ideal virtual reality battle royale, I played BigBox VR's Population One, which wasted no time winning me over.",
+                "url": "https://www.engadget.com/population-one-vr-battle-royale-hands-on-quest-2-170056697.html",
+                "urlToImage": "https://o.aolcdn.com/images/dims?resize=1200%2C630&crop=1200%2C630%2C0%2C0&quality=95&image_uri=https%3A%2F%2Fs.yimg.com%2Fos%2Fcreatr-uploaded-images%2F2020-10%2F82bf93a1-07f4-11eb-b7a1-440f6b4c269a&client=amp-blogside-v2&signature=7fb70a84c7bc5ff862ce46857292256a73560309",
+                "publishedAt": "2020-10-06T17:30:30Z",
+                "content": "I was particularly intrigued to see how well Population One works on the Quest 2's mobile hardware, so I made that my vehicle of choice during my demo. An offline training session helps you learn the… [+1350 chars]"
+            },
+            {
+                "source": {
+                    "id": "google-news",
+                    "name": "Google News"
+                },
+                "author": null,
+                "title": "Hyrule Warriors: Age of Calamity - Official Robbie & Purah Trailer - IGN",
+                "description": null,
+                "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9eFA5d0QtM3E4NFHSAQA?oc=5",
+                "urlToImage": null,
+                "publishedAt": "2020-10-06T17:00:12Z",
+                "content": null
+            },
+            {
+                "source": {
+                    "id": null,
+                    "name": "Eurogamer.net"
+                },
+                "author": "Edwin Evans-Thirlwell",
+                "title": "Baldur's Gate 3 mixes Divinity's excess with old school BioWare magic - Eurogamer.net",
+                "description": null,
+                "url": "https://www.eurogamer.net/articles/2020-10-06-baldurs-gate-3-in-early-access-has-the-makings-of-a-classic",
+                "urlToImage": "https://d2skuhm0vrry40.cloudfront.net/2020/articles/2020-10-06-16-24/baldurs-gate-3-in-early-access-has-the-makings-of-a-classic-1601997865301.jpg/EG11/resize/1200x-1/baldurs-gate-3-in-early-access-has-the-makings-of-a-classic-1601997865301.jpg",
+                "publishedAt": "2020-10-06T17:00:00Z",
+                "content": "It was roundabout the time I restarted the game in fury that I decided I absolutely love Baldur's Gate 3. Larian's take on BioWare's genre-defining Dungeons &amp; Dragons adaptation is every bit as v… [+12050 chars]"
+            }
+        ]
+    }
+}

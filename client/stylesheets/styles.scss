@@ -53,22 +53,32 @@
   display: flex;
   width: fit-content;
   align-self: flex-end;
-
+ 
   a {
     text-decoration: none;
-    width: 150px;
+    width: 200px;
+    
   }
 }
 
 .weather-wrapper {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid $black;
-  border-radius: 2%;
-  box-shadow: 2px 2px $black;
+  box-shadow: 10px 10px 21px -2px $dark-gray;
   margin-right: 5px;
   margin-top: 5px;
-  background-color: $tranparent-white;
+  background-color: $white;
+  padding: 10px;
+  border-radius: 6px;
+  .weather-desc {
+    text-align: center;
+    margin-bottom: 0;
+    color: $black;
+  }
+  .weather-bg{
+    display: flex;
+    flex-direction: column;
+    background-color: $blue;
+    padding: 0 10px;
+  }
 
   a {
     text-decoration: none;
@@ -87,6 +97,7 @@
   strong{
     margin: 5px 0px 0px 0px;
     font-size: 1rem;
+    color: $black;
   }
 }
 
@@ -97,6 +108,20 @@
 
 .temp-wrapper p{
   margin: 0px 5px 5px 5px;
+  color: $black;
+}
+
+.detailed-weather-main{
+ .weather-header {
+   background-color: $blue;
+   padding: 20px;
+
+   a{
+     text-decoration: none;
+     color: $black;
+     font-size: 1.2rem;
+   }
+ }
 }
 
 .detailed-weather {
@@ -118,9 +143,21 @@
           background-color: $blue;
           font-weight: 500;
         }
+        .weather-description{
+          margin-top: 10px;
+          text-transform: capitalize;
+        }
+
+        .temp-group {
+          display: flex;
+          justify-content: space-between;
+        }
+
         .card-body{
           text-align: left;
+          padding: 1rem;
           .card-text{
+            margin-bottom: .5rem;
             span{
               font-weight: bold;
             }

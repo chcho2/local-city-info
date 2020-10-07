@@ -21,7 +21,7 @@ const NewsView = (props) => {
         // TODO: transfer in-line styles to styles.css
         <Card key={`news-card-${i}`}>
           <div className="card-img-container">
-            <a href={newsInfo.url}>
+            <a href={newsInfo.url} target="_blank">
               <Card.Img className="card-img" variant="top" src={newsInfo.urlToImage || DEFAULT_IMG} />
             </a>
           </div>
@@ -64,7 +64,7 @@ const NewsView = (props) => {
     fetchData();
   }, [props.city]);
 
-  useEffect( () => {
+  useEffect(() => {
     fetchData();
   }, [props.city])
 
