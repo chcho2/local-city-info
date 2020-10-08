@@ -15,33 +15,7 @@
 .news-container {
   margin: 50px 0px;
 }
-.item-wrapper {
-  display: flex;
-  box-shadow: 2px 2px $black;
-  height: 250px;
-  width: 18%;
-  min-width: 150px;
-  border: 1px solid $black;
-  margin: 10px;
-  font-size: 12px;
-  margin-top: 5px;
-  box-shadow: 2px 2px $black;
-}
-.item-wrapper img {
-  height: 150px;
-  width: 100%;
-  display: flex;
-  border: 1px solid $black;
-}
-.item-wrapper p,
-strong {
-  margin: 0;
-  font-size: 11px;
-  height: auto;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
+
 .weather-container {
   display: flex;
   width: fit-content;
@@ -112,7 +86,7 @@ strong {
     margin-top: 20px;
     .detailed-weather-wrapper {
       margin-top: 10px;
-      
+
       .weather-card {
         margin-bottom: 15px;
         .detailed-weather-title {
@@ -129,13 +103,13 @@ strong {
         .temp-group {
           display: flex;
           justify-content: space-evenly;
-          p{
+          p {
             margin-bottom: 0.5rem;
           }
         }
 
         .temp-details {
-          p{
+          p {
             margin-bottom: 0.5rem;
           }
         }
@@ -147,22 +121,21 @@ strong {
   }
 }
 
-
-#detailed-weather-current-day{
+#detailed-weather-current-day {
   width: 100%;
   padding-top: 10px;
   margin-top: 10px;
   margin-bottom: 30px;
-  .weather-card{
+  .weather-card {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 
-    img{
+    img {
       width: 200px;
       margin: 0 30px;
     }
-    .detailed-weather-title{
+    .detailed-weather-title {
       align-self: center;
     }
     .weather-description {
@@ -171,7 +144,7 @@ strong {
       font-size: 1.2rem;
     }
 
-    .weather-deatils{
+    .weather-deatils {
       text-align: left;
       width: 200px;
       padding: 0 5px;
@@ -182,12 +155,12 @@ strong {
           margin-right: 5px;
         }
       }
-  
-      p{
+
+      p {
         font-size: 1.2rem;
         margin-bottom: 0.5rem;
       }
-      span{
+      span {
         font-weight: bold;
       }
     }
@@ -261,14 +234,14 @@ strong {
 }
 #loginButton {
   margin: 5px;
-  width: 50px;
-  height: 30px;
+  width: 60px;
+  height: 40px;
   margin-bottom: 10px;
   font-size: 13px;
   font-weight: bold;
-  background-color: Transparent;
-  transition: color, background-color;
+  background-color: $white;
   border-radius: 5px;
+  border: 1px solid $black;
 }
 #loginButton:hover {
   color: $white;
@@ -307,27 +280,27 @@ strong {
     align-items: center;
   }
 
-  #detailed-weather-current-day{
+  #detailed-weather-current-day {
     padding: 0 15px;
-      .weather-card{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-        .weather-deatils {
-          text-align: center;
-          .temp-group{
-            justify-content: center;
-          }
+    .weather-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .weather-deatils {
+        text-align: center;
+        .temp-group {
+          justify-content: center;
         }
       }
+    }
 
-      img, .weather-deatils{
-        align-self: center;
-      }
+    img,
+    .weather-deatils {
+      align-self: center;
     }
   }
-
+}
 
 @media screen and (min-width: 700px) {
   .detailed-weather-wrapper {
@@ -363,14 +336,13 @@ strong {
     padding: 0 15px;
   }
 
-  #detailed-weather-current-day{
-    .weather-card{
+  #detailed-weather-current-day {
+    .weather-card {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
     }
   }
-  
 }
 @media screen and (min-width: 1000px) {
   .activities-container {
@@ -397,14 +369,13 @@ strong {
     grid-template: auto/repeat(4, minmax(200px, 1fr));
     padding: 0 15px;
   }
-  #detailed-weather-current-day{
-    .weather-card{
+  #detailed-weather-current-day {
+    .weather-card {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
     }
   }
-  
 }
 @media screen and (min-width: 1300px) {
   .activities-container {
@@ -432,12 +403,11 @@ strong {
     padding: 0 15px;
   }
 
-  #detailed-weather-current-day{
-    .weather-card{
+  #detailed-weather-current-day {
+    .weather-card {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
     }
   }
-  
 }
