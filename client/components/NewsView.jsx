@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { connect } from 'react-redux';
-import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/CardDeck';
-import Button from 'react-bootstrap/Button';
+import React, { useState, useEffect } from "react";
+import { connect } from "react-redux";
+import Card from "react-bootstrap/Card";
+import CardDeck from "react-bootstrap/CardDeck";
+import Button from "react-bootstrap/Button";
 
 const mapStateToProps = ({
   informationReducer: { lat, long, countryCode },
@@ -13,16 +13,21 @@ const NewsView = (props) => {
   const [fetchedData, setFetchedData] = useState(false);
   const [currentArticles, setCurrentArticles] = useState([]);
 
-  const DEFAULT_IMG = 'https://joebalestrino.com/wp-content/uploads/2019/02/Marketplace-Lending-News.jpg';
+  const DEFAULT_IMG =
+    "https://joebalestrino.com/wp-content/uploads/2019/02/Marketplace-Lending-News.jpg";
 
-  const createNewsArticles = (newsObject, category = 'business') => {
+  const createNewsArticles = (newsObject, category = "business") => {
     return newsObject[category].map((newsInfo, i) => {
       return (
         // TODO: transfer in-line styles to styles.css
         <Card key={`news-card-${i}`}>
           <div className="card-img-container">
-            <a href={newsInfo.url} target="_blank">
-              <Card.Img className="card-img" variant="top" src={newsInfo.urlToImage || DEFAULT_IMG} />
+            <a href={newsInfo.url}>
+              <Card.Img
+                className="card-img"
+                variant="top"
+                src={newsInfo.urlToImage || DEFAULT_IMG}
+              />
             </a>
           </div>
           <Card.Body>
@@ -34,9 +39,9 @@ const NewsView = (props) => {
     });
   };
 
-  const fetchData = (category = 'business') => {
+  const fetchData = (category = "business") => {
     fetch(`/news/${props.countryCode}?category=${category}`, {
-      method: 'GET',
+      method: "GET",
       headers: {
         "Content-Type": "Application/JSON",
       },
@@ -47,7 +52,7 @@ const NewsView = (props) => {
         setFetchedData(true);
         setCurrentArticles(createNewsArticles(data.news));
       })
-      .catch(err => console.log('News fetch ERROR: ', err));
+      .catch((err) => console.log("News fetch ERROR: ", err));
   };
 
   const changeCategory = (category) => {
@@ -66,12 +71,20 @@ const NewsView = (props) => {
 
   useEffect(() => {
     fetchData();
-  }, [props.city])
+  }, [props.city]);
 
   if (!newsData) return null;
 
   if (fetchedData) {
-    const CATEGORIES = ['business', 'entertainment', 'general', 'health', 'science', 'sports', 'technology'];
+    const CATEGORIES = [
+      "business",
+      "entertainment",
+      "general",
+      "health",
+      "science",
+      "sports",
+      "technology",
+    ];
     const buttonsArray = [];
 
     for (let i = 0; i < CATEGORIES.length; i += 1) {
@@ -83,7 +96,7 @@ const NewsView = (props) => {
           onClick={changeCategory(CATEGORIES[i])}
         >
           {CATEGORIES[i]}
-        </Button>,
+        </Button>
       );
     }
 
@@ -92,16 +105,12 @@ const NewsView = (props) => {
         <h1 id="title">Local News Information</h1>
         {buttonsArray}
         <div className="cards-container">
-          <CardDeck>
-            {currentArticles}
-          </CardDeck>
+          <CardDeck>{currentArticles}</CardDeck>
         </div>
       </div>
     );
   } else {
-    return (
-      <h1 id="title">Fetching from database</h1>
-    );
+    return <h1 id="title">Fetching from database</h1>;
   }
 };
 export default connect(mapStateToProps, null)(NewsView);

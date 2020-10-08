@@ -1,21 +1,26 @@
-import React, { useState, useEffect } from 'react';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
-import Tabs from 'react-bootstrap/Tabs';
-import Tab from 'react-bootstrap/Tab';
-import { Link, useHistory } from 'react-router-dom';
+import React, { useState, useEffect } from "react";
+import { connect } from "react-redux";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import Tabs from "react-bootstrap/Tabs";
+import Tab from "react-bootstrap/Tab";
+import { Link, useHistory } from "react-router-dom";
+
+const mapDispatchToProps = (dispatch) => ({
+  // create functions that will dispatch action creators
+  addUser: () => dispatch(actions.addUser("Akosua")),
+});
 
 function Login(props) {
   let history = useHistory();
 
   function redirecting() {
-    history.push('/');
+    history.push("/");
   }
 
   const login = (user) => {
-
-    console.log('userProfile', user.getBasicProfile());
-    const profile = user.getBasicProfile()
+    console.log("userProfile", user.getBasicProfile());
+    const profile = user.getBasicProfile();
     // const firstName = profile.getGivenName();
     // console.log('firstName: ', firstName)
     // // GET LAST NAME
@@ -28,41 +33,39 @@ function Login(props) {
     // const email = profile.getEmail();
     // console.log('email: ', email)
     const token = user.getAuthResponse().id_token;
-    console.log('token', token)
-    fetch('http://localhost:3000/signin', {
-      method: 'POST',
+    console.log("token", token);
+    fetch("http://localhost:3000/signin", {
+      method: "POST",
       body: JSON.stringify({
-        token: token
+        token: token,
       }),
       headers: {
-        'Content-Type': 'application/json',
-      }
+        "Content-Type": "application/json",
+      },
     })
       .then((data) => data.json())
       .then((response) => {
         if (response.authorized) {
-          alert('Log in Successul!')
+          alert("Log in Successul!");
           redirecting();
         } else {
-          alert('Please try again!')
+          alert("Please try again!");
         }
       })
       .catch((error) => {
-        console.error('There is an error in fetching OAuth data', error)
-      })
-  }
-
-
+        console.error("There is an error in fetching OAuth data", error);
+      });
+  };
 
   useEffect(() => {
-    gapi.signin2.render('g-signin2', {
-      'width': 300,
-      'height': 50,
-      'longtitle': true,
-      'theme': 'dark',
-      'onsuccess': login
-    })
-  })
+    gapi.signin2.render("g-signin2", {
+      width: 300,
+      height: 50,
+      longtitle: true,
+      theme: "dark",
+      onsuccess: login,
+    });
+  });
 
   return (
     <div className="container signup-login-container">
@@ -92,7 +95,7 @@ function Login(props) {
               <Form.Label>Password</Form.Label>
               <Form.Control type="password" placeholder="Password" />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" onClick={props.addUser}>
               Sign Up!
             </Button>
           </Form>
@@ -108,16 +111,16 @@ function Login(props) {
               <Form.Label>Password</Form.Label>
               <Form.Control type="password" placeholder="Password" />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button variant="primary" type="submit" onClick={props.addUser}>
               Log In
             </Button>
-
           </Form>
         </Tab>
       </Tabs>
-      <div id="g-signin2" ></div>
+      <div id="g-signin2"></div>
     </div>
   );
 }
 
-export default Login;
+export default connect(null, mapDispatchToProps)(Login);
+// export default Login;
