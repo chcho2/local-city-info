@@ -23,9 +23,6 @@ oAuthController.verifyToken = (req, res, next) => {
       idToken: token,
       audience: CLIENT_ID,
     });
-    
-    console.log('IN VERIFY');
-    // if (!ticket) return respondTokenNotValid();
 
     const payload = ticket.getPayload();
     const userId = payload.sub;
@@ -35,7 +32,6 @@ oAuthController.verifyToken = (req, res, next) => {
     res.locals.firstName = given_name;
     res.locals.lastName = family_name;
     res.locals.isLoggedIn = true;
-    console.log(email);
     return next();
   }
 
