@@ -29,7 +29,7 @@ userFavoritesController.getFavorites = async (req, res, next) => {
   
   try {
     const dbResponse = await db.query(query, [username]);
-    res.locals.favoriteBusinesses = dbResponse.rows.map((el) => el.yelp_obj);
+    res.locals.favorites = dbResponse.rows.map((el) => el.yelp_obj);
     return next();
   } catch (err) {
     return next(err);
@@ -37,7 +37,7 @@ userFavoritesController.getFavorites = async (req, res, next) => {
 }
 
 userFavoritesController.setFavorite = async (req, res, next) => {
-  const { business } = req.body;
+  const business = req.body;
   const { id: yelp_id } = business;
   const { username } = res.locals;
 
@@ -64,8 +64,7 @@ userFavoritesController.setFavorite = async (req, res, next) => {
 };
 
 userFavoritesController.deleteFavorite= async (req, res, next) => {
-  const { business } = req.body;
-  const { id: yelp_id } = business;
+  const { id: yelp_id } = req.body;
   const { username } = res.locals;
 
   const queryDeleteUserFav = `
