@@ -27,7 +27,7 @@ CREATE TABLE public.users (
 	"username" varchar NOT NULL,
 	"first_name" varchar,
 	"last_name" varchar,
-  UNIQUE ("username")
+  UNIQUE ("username"),
 	CONSTRAINT "users_pk" PRIMARY KEY ("_id")
 ) WITH (
   OIDS=FALSE
@@ -45,7 +45,7 @@ CREATE TABLE  public.user_favorite_businesses (
 	"_id" serial NOT NULL,
 	"user_id" bigint NOT NULL,
 	"yelp_id" varchar NOT NULL,
-  UNIQUE ("user_id", "yelp_id")
+  UNIQUE ("user_id", "yelp_id"),
 	CONSTRAINT "user_favorite_businesses_pk" PRIMARY KEY ("_id"),
   CONSTRAINT "user_favorite_businesses_fk0" FOREIGN KEY ("user_id") REFERENCES public.users("_id"),
   CONSTRAINT "user_favorite_businesses_fk1" FOREIGN KEY ("yelp_id") REFERENCES public.businesses("yelp_id")

@@ -56,43 +56,43 @@ const DetailedWeather = (props) => {
     const date = new Date(day.dt * 1000);
     console.log(dayOfWeek);
     return (
-      <Card key={index} className="weather-card">
-        <Card.Header className="detailed-weather-title">
-          {date.toDateString()}
-        </Card.Header>
-        <Card.Text className="weather-description">
-          {day.weather[0].description}
-        </Card.Text>
-        <Card.Img
-          variant="top"
+      <section key={index} className="weather-card">
+        <div className="detailed-weather-title">
+          <h4>{date.toDateString()}</h4>
+          <p className="weather-description">
+            {day.weather[0].description}
+          </p>
+        </div>
+
+        <img
+          // variant="top"
           src={`http://openweathermap.org/img/wn/${imgCode}@2x.png`}
         />
-        <Card.Body>
-          {/* <Card.Text>Current Temp: {day.currentTemp}°F</Card.Text> */}
+        <div className="weather-deatils">
           <div className="temp-group">
-            <Card.Text>
+            <p>
               <span>Hi:</span> {convertKtoF(day.temp.max)}°F
-            </Card.Text>
-            <Card.Text>
+            </p>
+            <p>
               <span>Lo:</span> {convertKtoF(day.temp.min)}°F
-            </Card.Text>
+            </p>
           </div>
           <div className="temp-details">
-            <Card.Text>
+            <p>
               <span>Feels like:</span> {convertKtoF(day.feels_like.day)}°F
-            </Card.Text>
-            <Card.Text>
+            </p>
+            <p>
               <span>Humidity:</span> {day.humidity}%
-            </Card.Text>
-            <Card.Text>
+            </p>
+            <p>
               <span>WS:</span> {day.wind_speed} MPH
-            </Card.Text>
-            <Card.Text>
+            </p>
+            <p>
               <span>UV Index:</span> {day.uvi}
-            </Card.Text>
+            </p>
           </div>
-        </Card.Body>
-      </Card>
+        </div>
+      </section>
     );
   });
   return (
@@ -104,9 +104,10 @@ const DetailedWeather = (props) => {
       </div>
       <div className="detailed-weather">
         <h1>7 Day Weather</h1>
-        <CardDeck className="detailed-weather-container">
-          <div className="detailed-weather-wrapper">{weatherArr}</div>
-        </CardDeck>
+        <div className="detailed-weather-container">
+          <div id="detailed-weather-current-day">{weatherArr.slice(0, 1)}</div>
+          <div className="detailed-weather-wrapper">{weatherArr.slice(1)}</div>
+        </div>
       </div>
     </div>
   );

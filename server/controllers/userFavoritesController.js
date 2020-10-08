@@ -3,22 +3,13 @@ const db = require('../models/localCityInfoModel');
 
 const userFavoritesController = {};
 
-userFavoritesController.testUser = (req, res, next) => {
-  const { username, firstName, lastName } = req.body;
-  res.locals = {
-    ...res.locals,
-    username,
-    firstName,
-    lastName,
-  };
-  next();
-}
-
 userFavoritesController.addUser = (req, res, next) => {
   const { username, firstName, lastName } = res.locals;
 
   const query = `
-    INSERT INTO users (username, first_name, last_name) VALUES ($1, $2, $3);
+    INSERT INTO users (username, first_name, last_name) 
+      VALUES ($1, $2, $3)
+      ON CONFLICT DO NOTHING;
   `;
 
   db.query(query, [username, firstName, lastName])

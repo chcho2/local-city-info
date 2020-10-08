@@ -1,35 +1,31 @@
 const express = require('express');
+const oAuthController = require('../controllers/oAuthController');
 const userFavoritesController = require('../controllers/userFavoritesController');
 
 const router = express.Router();
 
-// router.post('/addUser',
-//   userFavoritesController.testUser,
-//   userFavoritesController.addUser,
-//   (req, res) => {
-//     res.sendStatus(200);
-//   });
-
 router.get('/',
-  // userFavoritesController.testUser,
+  oAuthController.verifyToken,
   userFavoritesController.getFavorites,
   (req, res) => {
-    return res.status(200).json(res.locals.favoriteBusinesses);
-  },
-);
+    const { isLoggedIn, favorites } = res.locals;
+    return res.status(200).json({ isLoggedIn, favorites });
+  });
 
 router.post('/',
-  // userFavoritesController.testUser,
+  oAuthController.verifyToken,
   userFavoritesController.setFavorite,
   (req, res) => {
-    res.sendStatus(200);
+    const { isLoggedIn } = res.locals;
+    return res.status(200).json({ isLoggedIn });
   });
 
 router.delete('/',
-  // userFavoritesController.testUser,
+  oAuthController.verifyToken,
   userFavoritesController.deleteFavorite,
   (req, res) => {
-    res.sendStatus(200);
+    const { isLoggedIn } = res.locals;
+    return res.status(200).json({ isLoggedIn });
   });
 
 module.exports = router;

@@ -12,6 +12,7 @@ const mapDispatchToProps = (dispatch) => ({
 });
 
 function Login(props) {
+
   let history = useHistory();
 
   function redirecting() {
@@ -33,15 +34,13 @@ function Login(props) {
     // const email = profile.getEmail();
     // console.log('email: ', email)
     const token = user.getAuthResponse().id_token;
-    // console.log("token", token);
+    console.log("token", typeof token);
     localStorage.setItem('token', token);
     fetch("http://localhost:3000/signin", {
       method: "POST",
-      body: JSON.stringify({
-        token: token,
-      }),
       headers: {
         "Content-Type": "application/json",
+        "Authorization": token,
       },
     })
       .then((data) => data.json())

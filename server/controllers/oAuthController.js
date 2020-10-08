@@ -1,38 +1,48 @@
+const { OAuth2Client } = require('google-auth-library');
 require('dotenv').config();
-const {
-    OAuth2Client
-} = require('google-auth-library');
 
 const CLIENT_ID = process.env.CLIENT_ID;
 
 const oAuthController = {};
 
-
 oAuthController.verifyToken = (req, res, next) => {
- 
+  const respondTokenNotValid = () => (
+    res.status(401).json({ isLoggedIn: false })
+  );
+
+  if (!req.headers.authorization) return respondTokenNotValid();
+
+  const token = req.headers.authorization;
+  if (!token) return respondTokenNotValid();
+
   const client = new OAuth2Client(CLIENT_ID);
-  const { token } = req.body;
-  
+
   async function verify() {
-      
-          const ticket = await client.verifyIdToken({
-            idToken: token,
-            audience: CLIENT_ID,
-          });
-          
-          const payload = ticket.getPayload();
-          console.log('what is payload', payload)
-          const userId = payload['sub'];
-          const { email, given_name, family_name } = payload;
-          res.locals.userName = email;
-          res.locals.firstName = given_name;
-          res.locals.lastName = family_name;
-          res.locals.oAuth = true;
-          res.locals.userId = userId;
-          return next();
-      
-      }
-      verify().catch(console.error);
-}
+    
+    const ticket = await client.verifyIdToken({
+      idToken: token,
+      audience: CLIENT_ID,
+    });
+    
+    console.log('IN VERIFY');
+    // if (!ticket) return respondTokenNotValid();
+
+    const payload = ticket.getPayload();
+    const userId = payload.sub;
+    const { email, given_name, family_name } = payload;
+    res.locals.userId = userId;
+    res.locals.username = email;
+    res.locals.firstName = given_name;
+    res.locals.lastName = family_name;
+    res.locals.isLoggedIn = true;
+    console.log(email);
+    return next();
+  }
+
+  verify().catch(() => {
+    console.log("HERE I AM");
+    respondTokenNotValid();
+  });
+};
 
 module.exports = oAuthController;
