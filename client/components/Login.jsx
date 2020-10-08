@@ -33,7 +33,8 @@ function Login(props) {
     // const email = profile.getEmail();
     // console.log('email: ', email)
     const token = user.getAuthResponse().id_token;
-    console.log("token", token);
+    // console.log("token", token);
+    localStorage.setItem('token', token);
     fetch("http://localhost:3000/signin", {
       method: "POST",
       body: JSON.stringify({
@@ -46,6 +47,7 @@ function Login(props) {
       .then((data) => data.json())
       .then((response) => {
         if (response.authorized) {
+        
           alert("Log in Successul!");
           redirecting();
         } else {
@@ -115,9 +117,9 @@ function Login(props) {
               Log In
             </Button>
           </Form>
+      <div id="g-signin2"></div>
         </Tab>
       </Tabs>
-      <div id="g-signin2"></div>
     </div>
   );
 }

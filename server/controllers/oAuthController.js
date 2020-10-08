@@ -1,24 +1,25 @@
-
+require('dotenv').config();
 const {
     OAuth2Client
 } = require('google-auth-library');
 
-
+const CLIENT_ID = process.env.CLIENT_ID;
 
 const oAuthController = {};
 
 
 oAuthController.verifyToken = (req, res, next) => {
  
-  const client = new OAuth2Client(process.env.CLIENT_ID);
+  const client = new OAuth2Client(CLIENT_ID);
   const { token } = req.body;
   
   async function verify() {
       
           const ticket = await client.verifyIdToken({
             idToken: token,
-            audience: process.env.CLIENT_ID,
+            audience: CLIENT_ID,
           });
+          
           const payload = ticket.getPayload();
           console.log('what is payload', payload)
           const userId = payload['sub'];
