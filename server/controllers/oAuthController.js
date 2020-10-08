@@ -32,7 +32,6 @@ oAuthController.verifyToken = (req, res, next) => {
       
       }
       verify().catch(console.error);
-  
 }
 
 module.exports = oAuthController;
