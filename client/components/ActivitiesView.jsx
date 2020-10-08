@@ -118,7 +118,7 @@ const ActivitiesView = (props) => {
 
   useEffect(() => {
     fetchData();
-  }, [props.city]);
+  }, [props.city, isLoggedIn]);
 
   useEffect(() => {
     fetch("/favorites/")
